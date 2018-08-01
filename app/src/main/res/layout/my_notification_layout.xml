@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:id="@+id/notification_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#8dc7d3"
+    >
+
+    <ImageView
+        android:id="@+id/notifImage"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        tools:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/notifImage"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_text"
+        android:layout_toRightOf="@+id/notifImage"
+        android:paddingLeft="10dp"
+        android:textColor="#d62d20" />
+
+</RelativeLayout>

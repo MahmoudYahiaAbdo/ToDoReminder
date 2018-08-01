@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+    android:id="@+id/enterMarketItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter ToDo Item"
+    android:textColor="#FFFFFF"/>
+    <EditText
+    android:id="@+id/enterDetails"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Details"
+    android:textColor="#FFFFFF"/>
+    <Button
+    android:id="@+id/Insert"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Insert Item"/>
+    <ListView
+    android:id="@+id/marketList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    android:layout_gravity="fill"/>
+</LinearLayout>
